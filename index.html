@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App01</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Cretated By Susanta Gorai , Electronics and Communication Engineering ,CGEC (Web Developer-FullStack) -->
+</head>
+<body>
+    <div class="container">
+        <center><h2>☁️ Weather App ☁️</h2></center> <br>
+        <hr style="color:black; ">
+        <br>
+        <form id="input">
+           <center> <input type="text" name="city" placeholder=" Enter the city" id="city"></center>  <br> 
+            <center><input onclick="document.getElementById('notive').innerHTML=' ----👨🏽‍🦱 Welcome 👨🏽‍🦱  ----   Visit again !'"  type="submit" id="btn" value="Get Updates"></center>
+        </form>
+        <br>
+        <div class="weatherContainer">
+            City Name : <span id="cityName"></span> <br> <br>
+            Tempature : <span id="temp"></span> <br> <br>
+            Weather   : <span id="weather"></span> <br> <br>
+    
+             <center>
+                <h3 style="color: #f8f8f7;" id="notive"></h3>
+             </center> <br>
+             <hr>
+        </div>
+        <footer>
+            <p><center><h3>Created By @Susanta 💜</h3><br>
+                <b>Copyright @2022</b>
+            </center></p>
+        </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
